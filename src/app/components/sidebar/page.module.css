@@ -1,0 +1,45 @@
+.container{
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;
+ }
+
+ .content{
+  padding-left: 10px;
+ }
+
+.dropdown{
+  list-style-type: none;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+    opacity: 0.7;
+    font-weight: bold;
+  }
+
+  .link:hover{
+    text-decoration: underline;
+  }
+
+  .works{
+    list-style-type: none;
+    display: none;
+  }
+
+  .linked{
+    text-decoration: none;
+    color: black;
+    opacity: 0.7;
+  }
+
+  .linked:hover{
+    text-decoration: underline;
+  }
+
+  .dropdown li:nth-child(1):hover .works{
+    display: block;
+  }
+
+
